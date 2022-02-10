@@ -78,8 +78,9 @@ for TEL, F10, and DDC solutions.
  title={{TEL}: Low-Latency Failover Traffic Engineering in Data Plane},
  journal={IEEE Transactions on Network and Service Management},
  year={2021},
- volume={},
- number={},
- note={Impact factor: 4.195, to appear}
+ volume={18},
+ number={4},
+ pages= {4697--4710},
+ note={Impact factor: 4.195}
 }
 ```

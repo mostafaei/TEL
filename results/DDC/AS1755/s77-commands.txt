@@ -1,0 +1,23 @@
+register_write MyIngress.port_status_r 1 1 
+register_write MyIngress.port_status_r 2 1 
+register_write MyIngress.port_status_r 3 1 
+register_write MyIngress.port_status_r 4 1 
+register_write MyIngress.port_status_r 5 1 
+register_write MyIngress.port_status_r 6 1 
+register_write MyIngress.port_status_r 7 1 
+register_write MyIngress.port_status_r 8 1 
+register_write MyIngress.port_status_r 9 1 
+register_write MyIngress.port_status_r 10 1 
+register_write MyIngress.port_status_r 11 1 
+register_write MyIngress.port_status_r 12 1 
+table_add MyIngress.myTunnel_exact MyIngress.myTunnel_forward 77 => 1 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 1 => 00:00:00:00:4d:4d 1
+register_write MyIngress.direction_r 4 1 
+register_write MyIngress.direction_r 5 1 
+register_write MyIngress.direction_r 6 1 
+register_write MyIngress.direction_r 7 1 
+register_write MyIngress.direction_r 8 1 
+register_write MyIngress.direction_r 9 1 
+register_write MyIngress.direction_r 10 1 
+register_write MyIngress.direction_r 11 1 
+register_write MyIngress.direction_r 12 1 

@@ -1,0 +1,5 @@
+register_write MyIngress.port_status_r 1 1 
+register_write MyIngress.port_status_r 2 1 
+register_write MyIngress.port_status_r 3 1 
+table_add MyIngress.myTunnel_exact MyIngress.myTunnel_forward 54 => 1 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 1 => 00:00:00:00:36:36 1

@@ -81,6 +81,5 @@ for TEL, F10, and DDC solutions.
  volume={18},
  number={4},
  pages= {4697--4710},
- note={Impact factor: 4.195}
 }
 ```
